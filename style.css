@@ -515,7 +515,7 @@
   justify-content: space-evenly;
 }
 .website > .website__author > .author__right {
-  margin-top: 150px;
+  margin: 150px 0px;
 }
 .website > .website__author > .author__right > .right__img {
   width: 545px;
@@ -524,16 +524,16 @@
   border: 10px solid #FFCA42;
 }
 .website > .website__author > .author__right > .right__img > img {
-  top: -50px;
-  right: 50px;
+  right: 25px;
+  bottom: 25px;
   position: absolute;
 }
 .website > .website__author > .author__left {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 149px;
+  margin: 196px 0;
 }
 .website > .website__author > .author__left > .left__texts {
   display: flex;
@@ -553,6 +553,7 @@
   width: 50px;
   height: 3px;
   background: #FFCA42;
+  margin: 20px 0;
 }
 .website > .website__author > .author__left > .left__texts > .texts__desc {
   width: 559px;
@@ -565,6 +566,7 @@
   font-family: Inter-normal;
 }
 .website > .website__author > .author__left > .left__numbers {
+  width: 600px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -574,6 +576,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-right: 20px;
 }
 .website > .website__author > .author__left > .left__numbers > .number__published > .published__books {
   color: #1B3764;
@@ -614,6 +617,9 @@
   line-height: 22px;
   font-family: Inter-normal;
 }
+.website > .website__author > .author__left > .left__numbers > .number__awards {
+  margin-left: 20px;
+}
 .website > .website__author > .author__left > .left__numbers > .number__awards > .awards__books {
   font-family: "Cardo";
   font-style: normal;
@@ -626,23 +632,25 @@
   color: #969AA0;
   font-size: 17px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 2.2;
   font-style: normal;
   font-family: Inter-normal;
 }
 .website > .website__author > .author__left > .left__contact {
-  width: 484px;
+  width: 427px;
   height: 161px;
   display: flex;
   flex-direction: row;
   align-items: center;
   background: #1B3764;
+  box-sizing: border-box;
   justify-content: space-evenly;
 }
 .website > .website__author > .author__left > .left__contact > .contact__img {
   width: 130px;
   height: 130px;
   background: url(./images/author-qr.png) no-repeat center center/cover;
+  margin-right: 20px;
 }
 .website > .website__author > .author__left > .left__contact > .contact__texts {
   display: flex;
@@ -653,7 +661,7 @@
   color: #FFCA42;
   font-size: 22px;
   font-weight: 400;
-  line-height: 2.6;
+  line-height: 2;
   font-style: normal;
   font-family: Cardo-normal;
 }
@@ -679,7 +687,7 @@
   color: #B4C7E7;
   font-size: 18px;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 2;
   font-style: normal;
   font-family: Inter-normal;
 }
