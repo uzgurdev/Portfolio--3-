@@ -917,18 +917,62 @@
         background: #1B3764;
 
         &>.book-copy__main-section {
-            margin: 70px;
-            height: 394px;
+            // height: 394px;
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
+            justify-content: space-around;
 
             &>.main-section__text {
-                width: 610px;
+                width: 520px;
                 height: 284px;
                 display: flex;
                 flex-direction: column;
+                margin: 130px 0px 70px 0px;
                 justify-content: space-evenly;
+
+                &>.text__title {
+                    color: #FFFFFF;
+                    font-size: 45px;
+                    font-weight: 400;
+                    line-height: 54px;
+                    font-style: normal;
+                    font-family: Cardo-normal;
+                    text-transform: capitalize;
+                }
+
+                &>.text__line {
+                    width: 50px;
+                    height: 3px;
+                    background: #FFCA42;
+                }
+
+                &>.text__desc {
+                    color: #B4C7E7;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 28px;
+                    font-family: Inter-normal;
+                }
+
+                &>.text__btn {
+                    width: 220px;
+                    height: 66px;
+                    color: #FFFFFF;
+                    font-size: 19px;
+                    background: none;
+                    font-weight: 400;
+                    line-height: 28px;
+                    font-style: normal;
+                    letter-spacing: 0.38px;
+                    font-family: Cardo-normal;
+                    border: 2px solid #FFCA42;
+                }
+
+            }
+
+            &>img {
+                margin: 70px 0px 70px 0px;
             }
 
         }
