@@ -918,8 +918,9 @@
 
         &>.book-copy__main-section {
             display: flex;
+            margin: 0 auto;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-evenly;
 
             &>.main-section__text {
                 width: 520px;

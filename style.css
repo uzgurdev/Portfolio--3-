@@ -772,8 +772,9 @@
 }
 .website > .website__book-copy > .book-copy__main-section {
   display: flex;
+  margin: 0 auto;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .website > .website__book-copy > .book-copy__main-section > .main-section__text {
   width: 520px;
