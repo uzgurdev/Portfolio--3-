@@ -834,4 +834,83 @@
 
     }
 
+    &>.website__trusted-companies {
+        height: 397px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 110px 0 130px 0;
+
+        &>.trusted-companies__title {
+            color: #1B3764;
+            font-size: 42px;
+            font-weight: 400;
+            line-height: 50px;
+            text-align: center;
+            font-style: normal;
+            font-family: Cardo-normal;
+            text-transform: capitalize;
+        }
+
+        &>.trusted-companies__line {
+            width: 50px;
+            height: 3px;
+            background: #FFCA42;
+            margin: 23px 0 50px 0;
+        }
+
+        &>.trusted-companies__cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            &>.cards__card {
+                width: 300px;
+                height: 254px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+
+                &>.card__title {
+                    color: #1B3764;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 29px;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Cardo-normal;
+                }
+
+                &>.card__desc {
+                    color: #969AA0;
+                    font-size: 19px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Inter-normal;
+                }
+
+            }
+
+            &>.cards__card:nth-child(2) {
+                width: 270px;
+                margin-left: 16px;
+            }
+
+            &>.cards__card:nth-child(3) {
+                width: 270px;
+                margin-left: 16px;
+            }
+
+            &>.cards__card:nth-child(4) {
+                margin-left: 16px;
+            }
+
+        }
+
+    }
+
 }
