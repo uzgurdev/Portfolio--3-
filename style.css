@@ -766,4 +766,21 @@
 }
 .website > .website__trusted-companies > .trusted-companies__cards > .cards__card:nth-child(4) {
   margin-left: 16px;
+}
+.website > .website__book-copy {
+  background: #1B3764;
+}
+.website > .website__book-copy > .book-copy__main-section {
+  margin: 70px;
+  height: 394px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.website > .website__book-copy > .book-copy__main-section > .main-section__text {
+  width: 610px;
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */

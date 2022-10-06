@@ -914,7 +914,25 @@
     }
 
     &>.website__book-copy {
-        
+        background: #1B3764;
+
+        &>.book-copy__main-section {
+            margin: 70px;
+            height: 394px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            &>.main-section__text {
+                width: 610px;
+                height: 284px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+
+        }
+
     }
 
 }
