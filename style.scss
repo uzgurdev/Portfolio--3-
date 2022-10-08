@@ -985,7 +985,6 @@
         flex-direction: column;
         margin: 120px 70px 140px;
         justify-content: space-evenly;
-        border: 1px solid red;
 
         &>.learn__header {
             display: flex;
@@ -1017,12 +1016,12 @@
         &>.learn__main-section {
             height: 652px;
             display: flex;
-            position: relative;
             flex-direction: row;
             justify-content: space-evenly;
 
             &>.main-section__right {
                 width: 666px;
+                margin: 0 80px 0 0;
 
                 &>.right__cards {
                     display: flex;
@@ -1098,12 +1097,14 @@
             &>.main-section__left {
                 width: 555px;
                 height: 652px;
+                position: relative;
+                box-sizing: border-box;
                 border: 10px solid #FFCA42;
 
                 &>.left__img {
-                    right: 40px;
+                    top: -60px;
+                    left: -60px;
                     width: 535px;
-                    bottom: 40px;
                     height: 632px;
                     position: absolute;
                 }
