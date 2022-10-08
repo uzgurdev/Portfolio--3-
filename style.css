@@ -821,4 +821,105 @@
 }
 .website > .website__book-copy > .book-copy__main-section > img {
   margin: 70px 0px 70px 0px;
+}
+.website > .website__learn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 120px 70px 140px;
+  justify-content: space-evenly;
+  border: 1px solid red;
+}
+.website > .website__learn > .learn__header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.website > .website__learn > .learn__header > .header__title {
+  color: #1B3764;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 5;
+  font-style: normal;
+  text-align: center;
+  font-family: Cardo-normal;
+  margin: 0px 0px -25px 0px;
+  text-transform: capitalize;
+}
+.website > .website__learn > .learn__header > .header__line {
+  width: 50px;
+  height: 3px;
+  background: #FFCA42;
+  margin: 0px 0px 91px 0px;
+}
+.website > .website__learn > .learn__main-section {
+  height: 652px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.website > .website__learn > .learn__main-section > .main-section__right {
+  width: 666px;
+}
+.website > .website__learn > .learn__main-section > .main-section__right > .right__cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card {
+  width: 303px;
+  height: 272px;
+  display: flex;
+  background: #F4F8FF;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px 44px 61px 30px;
+  justify-content: space-evenly;
+}
+.website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card > .card__number {
+  width: 50px;
+  height: 50px;
+  color: #1B3764;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  font-style: normal;
+  background: #ffca42;
+  border-radius: 100px;
+  font-family: Cardo-normal;
+}
+.website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card > .card__desc {
+  width: 260px;
+  color: #1B3764;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 30px;
+  line-height: 34px;
+  font-style: normal;
+  font-family: Cardo-normal;
+}
+.website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card:nth-child(2) > .card__desc {
+  width: 236px;
+}
+.website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card:nth-child(3) > .card__desc {
+  width: 216px;
+}
+.website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card:nth-child(4) > .card__desc {
+  width: 223px;
+}
+.website > .website__learn > .learn__main-section > .main-section__left {
+  width: 555px;
+  height: 652px;
+  border: 10px solid #FFCA42;
+}
+.website > .website__learn > .learn__main-section > .main-section__left > .left__img {
+  right: 40px;
+  width: 535px;
+  bottom: 40px;
+  height: 632px;
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
