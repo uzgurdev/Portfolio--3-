@@ -901,11 +901,20 @@
   font-style: normal;
   font-family: Cardo-normal;
 }
+.website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card:nth-child(2) > .card__number {
+  margin-top: 30px;
+}
 .website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card:nth-child(2) > .card__desc {
   width: 236px;
 }
+.website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card:nth-child(3) > .card__number {
+  margin-top: 30px;
+}
 .website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card:nth-child(3) > .card__desc {
   width: 216px;
+}
+.website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card:nth-child(4) > .card__number {
+  margin-top: 30px;
 }
 .website > .website__learn > .learn__main-section > .main-section__right > .right__cards > .cards__card:nth-child(4) > .card__desc {
   width: 223px;

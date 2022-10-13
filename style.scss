@@ -1068,6 +1068,10 @@
 
                     &>.cards__card:nth-child(2) {
 
+                        &>.card__number {
+                            margin-top: 30px;
+                        }
+
                         &>.card__desc {
                             width: 236px;
                         }
@@ -1076,6 +1080,10 @@
 
                     &>.cards__card:nth-child(3) {
 
+                        &>.card__number {
+                            margin-top: 30px;
+                        }
+
                         &>.card__desc {
                             width: 216px;
                         }
@@ -1083,6 +1091,10 @@
                     }
 
                     &>.cards__card:nth-child(4) {
+
+                        &>.card__number {
+                            margin-top: 30px;
+                        }
 
                         &>.card__desc {
                             width: 223px;
