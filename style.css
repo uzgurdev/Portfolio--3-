@@ -932,4 +932,143 @@
   width: 535px;
   height: 632px;
   position: absolute;
+}
+.website > .website__enhance {
+  background: #F4F8FF;
+}
+.website > .website__enhance > .enhance__header {
+  height: 260px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 120px 70px 60px;
+  justify-content: space-between;
+}
+.website > .website__enhance > .enhance__header > .header__title {
+  color: #1B3764;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50px;
+  font-style: normal;
+  text-align: center;
+  font-family: Cardo-normal;
+  text-transform: capitalize;
+}
+.website > .website__enhance > .enhance__header > .header__line {
+  width: 50px;
+  height: 3px;
+  background: #ffca42;
+}
+.website > .website__enhance > .enhance__body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.website > .website__enhance > .enhance__body > .body__main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card {
+  width: 635px;
+  height: 242px;
+  display: flex;
+  padding: 47px;
+  background: #fff;
+  align-items: left;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__title {
+  color: #1B3764;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  font-style: normal;
+  font-family: Cardo-normal;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__desc {
+  color: #969AA0;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 21px;
+  line-height: 32px;
+  font-style: normal;
+  font-family: Inter-normal;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__footer {
+  display: flex;
+  margin-right: 200px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__footer > .footer__pages {
+  width: 233px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__footer > .footer__pages > .pages__name {
+  display: flex;
+  color: #1B3764;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  font-style: normal;
+  flex-direction: row;
+  align-items: center;
+  font-family: Cardo-normal;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__footer > .footer__pages > .pages__name > .name__circle {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  border-radius: 100%;
+  background: #ffca42;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__footer > .footer__pages > .pages__desc {
+  color: #969AA0;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  font-style: normal;
+  font-family: Inter-normal;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__footer > .footer__length {
+  width: 233px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__footer > .footer__length > .length__name {
+  display: flex;
+  color: #1B3764;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  font-style: normal;
+  flex-direction: row;
+  align-items: center;
+  font-family: Cardo-normal;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__footer > .footer__length > .length__name > .name__circle {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  border-radius: 100%;
+  background: #ffca42;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card > .card__footer > .footer__length > .length__desc {
+  color: #969AA0;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  font-style: normal;
+  font-family: Inter-normal;
 }/*# sourceMappingURL=style.css.map */

@@ -1003,7 +1003,7 @@
                 margin: 0px 0px -25px 0px;
                 text-transform: capitalize;
             }
-    
+
             &>.header__line {
                 width: 50px;
                 height: 3px;
@@ -1119,6 +1119,172 @@
                     width: 535px;
                     height: 632px;
                     position: absolute;
+                }
+
+            }
+
+        }
+
+    }
+
+    &>.website__enhance {
+        background: #F4F8FF;
+
+        &>.enhance__header {
+            height: 260px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            box-sizing: border-box;
+            padding: 120px 70px 60px;
+            justify-content: space-between;
+
+            &>.header__title {
+                color: #1B3764;
+                font-size: 42px;
+                font-weight: 400;
+                line-height: 50px;
+                font-style: normal;
+                text-align: center;
+                font-family: Cardo-normal;
+                text-transform: capitalize;
+            }
+
+            &>.header__line {
+                width: 50px;
+                height: 3px;
+                background: #ffca42;
+            }
+
+        }
+
+        &>.enhance__body {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            &>.body__main-section {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                &>.main-section__card {
+                    width: 635px;
+                    height: 242px;
+                    display: flex;
+                    padding: 47px;
+                    background: #fff;
+                    align-items: left;
+                    box-sizing: border-box;
+                    flex-direction: column;
+
+                    &>.card__title {
+                        color: #1B3764;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 29px;
+                        font-style: normal;
+                        font-family: Cardo-normal;
+                    }
+
+                    &>.card__desc {
+                        color: #969AA0;
+                        font-size: 19px;
+                        font-weight: 400;
+                        margin-top: 21px;
+                        line-height: 32px;
+                        font-style: normal;
+                        font-family: Inter-normal;
+                    }
+
+                    &>.card__footer {
+                        display: flex;
+                        margin-right: 200px;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+
+                        &>.footer__pages {
+                            width: 233px;
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+
+                            &>.pages__name {
+                                display: flex;
+                                color: #1B3764;
+                                font-size: 22px;
+                                font-weight: 400;
+                                line-height: 31px;
+                                font-style: normal;
+                                flex-direction: row;
+                                align-items: center;
+                                font-family: Cardo-normal;
+
+                                &>.name__circle {
+                                    width: 16px;
+                                    height: 16px;
+                                    margin-right: 10px;
+                                    border-radius: 100%;
+                                    background: #ffca42;
+                                }
+
+                            }
+
+                            &>.pages__desc {
+                                color: #969AA0;
+                                font-size: 17px;
+                                font-weight: 400;
+                                line-height: 27px;
+                                font-style: normal;
+                                font-family: Inter-normal;
+                            }
+
+                        }
+
+                        &>.footer__length {
+                            width: 233px;
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+                            
+                            &>.length__name {
+                                display: flex;
+                                color: #1B3764;
+                                font-size: 22px;
+                                font-weight: 400;
+                                line-height: 31px;
+                                font-style: normal;
+                                flex-direction: row;
+                                align-items: center;
+                                font-family: Cardo-normal;
+
+                                &>.name__circle {
+                                    width: 16px;
+                                    height: 16px;
+                                    margin-right: 10px;
+                                    border-radius: 100%;
+                                    background: #ffca42;
+                                }
+
+                            }
+
+                            &>.length__desc {
+                                color: #969AA0;
+                                font-size: 17px;
+                                font-weight: 400;
+                                line-height: 27px;
+                                font-style: normal;
+                                font-family: Inter-normal;
+                            }
+                        }
+
+                    }
+
                 }
 
             }
