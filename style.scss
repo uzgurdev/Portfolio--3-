@@ -1165,9 +1165,11 @@
             justify-content: space-evenly;
 
             &>.body__main-section {
+                width: 1350px;
                 display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
+                flex-wrap: wrap;
+                margin: 0px 100px;
+                flex-direction: row;
 
                 &>.main-section__card {
                     width: 635px;
@@ -1178,6 +1180,7 @@
                     align-items: left;
                     box-sizing: border-box;
                     flex-direction: column;
+                    margin: 0px 0px 40px 20px;
 
                     &>.card__title {
                         color: #1B3764;
@@ -1192,9 +1195,9 @@
                         color: #969AA0;
                         font-size: 19px;
                         font-weight: 400;
-                        margin-top: 21px;
                         line-height: 32px;
                         font-style: normal;
+                        margin: 21px 0px 10px;
                         font-family: Inter-normal;
                     }
 
