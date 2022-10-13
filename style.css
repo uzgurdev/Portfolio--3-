@@ -1075,6 +1075,12 @@
   font-style: normal;
   font-family: Inter-normal;
 }
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card:nth-child(2) > .card__desc {
+  width: 510px;
+}
+.website > .website__enhance > .enhance__body > .body__main-section > .main-section__card:nth-child(3) > .card__desc {
+  width: 510px;
+}
 .website > .website__enhance > .enhance__body > .body__section {
   height: 227px;
   display: flex;

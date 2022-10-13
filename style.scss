@@ -1290,6 +1290,22 @@
 
                 }
 
+                &>.main-section__card:nth-child(2) {
+                    
+                    &>.card__desc {
+                        width: 510px;
+                    }
+
+                }
+
+                &>.main-section__card:nth-child(3) {
+                    
+                    &>.card__desc {
+                        width: 510px;
+                    }
+
+                }
+
             }
 
             &>.body__section {
