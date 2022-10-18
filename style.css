@@ -1089,6 +1089,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
+  margin: 0px 0px 130px;
 }
 .website > .website__enhance > .enhance__body > .body__section > .section__btn {
   width: 429px;
@@ -1133,4 +1134,15 @@
   text-decoration: none;
   letter-spacing: 0.19px;
   font-family: Inter-normal;
+}
+.website > .website__opinion {
+  display: flex;
+  margin: 130px 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.website > .website__opinion > .opinion__overall {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
