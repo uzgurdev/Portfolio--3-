@@ -1389,7 +1389,7 @@
         justify-content: space-evenly;
 
         &>.opinion__overall {
-            width: 448px;
+            width: 440px;
             height: 445px;
             display: flex;
             flex-direction: column;
@@ -1423,6 +1423,57 @@
                     font-size: 19px;
                     font-weight: 400;
                     line-height: 34px;
+                    font-style: normal;
+                    font-family: Inter-normal;
+                }
+
+            }
+
+            &>.overall__rating {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                &>.rating__rate {
+                    display: flex;
+                    color: #1B3764;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    font-style: normal;
+                    flex-direction: row;
+                    font-family: Cardo-normal;
+
+                    &>.rate__circle {
+                        display: flex;
+                        flex-direction: row;
+
+                        &>.circle__circle {
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 100%;
+                            background: #ffca42;
+                            margin: 0px 5px 0px 0px;
+                        }
+
+                        &>.circle__circle-half {
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 100%;
+                            margin: 0px 5px 0px 0px;
+                            border: 1px solid #ffca42;
+                            background: linear-gradient(to left, #FFFFFF 50%, #ffca42 50%);
+                        }
+
+                    }
+
+                }
+
+                &>.rating__desc {
+                    color: #1B3764;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
                     font-style: normal;
                     font-family: Inter-normal;
                 }
