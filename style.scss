@@ -1290,7 +1290,7 @@
                 }
 
                 &>.main-section__card:nth-child(2) {
-                    
+
                     &>.card__desc {
                         width: 510px;
                     }
@@ -1298,7 +1298,7 @@
                 }
 
                 &>.main-section__card:nth-child(3) {
-                    
+
                     &>.card__desc {
                         width: 510px;
                     }
@@ -1306,7 +1306,7 @@
                 }
 
                 &>.main-section__card:nth-child(4) {
-                    
+
                     &>.card__desc {
                         width: 539px;
                     }
@@ -1389,11 +1389,43 @@
         justify-content: space-evenly;
 
         &>.opinion__overall {
+            width: 448px;
+            height: 445px;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
 
             &>.overall__text {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                &>.text__title {
+                    color: #1B3764;
+                    font-size: 42px;
+                    font-weight: 400;
+                    text-align: left;
+                    line-height: 50px;
+                    font-style: normal;
+                    font-family: Cardo-normal;
+                    text-transform: capitalize;
+                }
+
+                &>.text__line {
+                    width: 50px;
+                    height: 3px;
+                    background: #FFCA42;
+                    margin: 23px 0px 33px;
+                }
+
+                &>.text__desc {
+                    color: #969AA0;
+                    font-size: 19px;
+                    font-weight: 400;
+                    line-height: 34px;
+                    font-style: normal;
+                    font-family: Inter-normal;
+                }
 
             }
 
