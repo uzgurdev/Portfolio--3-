@@ -1491,14 +1491,62 @@
                 width: 381px;
                 height: 292px;
                 display: flex;
-                flex-direction: column;
                 background: #1B3764;
+                flex-direction: column;
+                box-sizing: border-box;
+                padding: 41px 35px 24px;
                 box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.11);
 
                 &>.card__profile {
                     display: flex;
                     flex-direction: row;
+                    align-items: center;
                     justify-content: space-evenly;
+
+                    &>.profile__text {
+                        display: flex;
+                        flex-direction: column;
+
+                        &>.text__name {
+                            color: #FFFFFF;
+                            font-size: 24px;
+                            font-weight: 400;
+                            line-height: 29px;
+                            font-style: normal;
+                            font-family: Cardo-normal;
+                        }
+
+                        &>.text__circle {
+                            display: flex;
+                            flex-direction: row;
+
+                            &>.circle__circle {
+                                width: 12.67px;
+                                height: 12.67px;
+                                border-radius: 100%;
+                                background: #ffca42;
+                                margin: 15px 0px 0px 5px;
+                            }
+
+                            &>.circle__circle-halfe {
+                                width: 12.67px;
+                                height: 12.67px;
+                                border-radius: 100%;
+                                box-sizing: border-box;
+                                margin: 15px 0px 0px 5px;
+                                border: 1px solid #ffca42;
+                                background: linear-gradient(to left, transparent 50%, #ffca42 50%);
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                &>.card__desc {
+                    display: flex;
+                    flex-direction: column;
                 }
 
             }
