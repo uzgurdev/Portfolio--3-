@@ -1546,7 +1546,27 @@
 
                 &>.card__desc {
                     display: flex;
+                    margin: 38px 0px 24px;
                     flex-direction: column;
+
+                    &>.desc__title {
+                        color: #fff;
+                        font-size: 22px;
+                        font-weight: 400;
+                        line-height: 33px;
+                        font-style: normal;
+                        font-family: Cardo-normal;
+                    }
+
+                    &>.desc__desc {
+                        color: #B4C7E7;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 29px;
+                        font-style: normal;
+                        font-family: Inter-normal;
+                    }
+
                 }
 
             }
