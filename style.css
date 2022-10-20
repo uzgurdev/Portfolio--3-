@@ -1139,7 +1139,6 @@
   display: flex;
   margin: 130px 0;
   flex-direction: row;
-  justify-content: space-evenly;
 }
 .website > .website__opinion > .opinion__overall {
   width: 440px;
@@ -1304,4 +1303,7 @@
   margin: 15px 0px 0px 5px;
   border: 1px solid #ffca42;
   background: linear-gradient(to left, transparent 50%, transparent 50%);
+}
+.website > .website__opinion > .opinion__people > .people__card:nth-child(3) {
+  margin-top: 150px;
 }/*# sourceMappingURL=style.css.map */
