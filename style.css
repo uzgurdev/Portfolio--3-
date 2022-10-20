@@ -1230,8 +1230,7 @@
   display: flex;
   background: #1B3764;
   flex-direction: column;
-  box-sizing: border-box;
-  padding: 41px 35px 24px;
+  justify-content: space-evenly;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.11);
 }
 .website > .website__opinion > .opinion__people > .people__card > .card__profile {
@@ -1274,8 +1273,9 @@
 }
 .website > .website__opinion > .opinion__people > .people__card > .card__desc {
   display: flex;
-  margin: 38px 0px 24px;
+  margin: 0 35px 0 50px;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 .website > .website__opinion > .opinion__people > .people__card > .card__desc > .desc__title {
   color: #fff;
