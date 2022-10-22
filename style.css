@@ -1604,4 +1604,59 @@
   text-decoration: none;
   letter-spacing: 0.18px;
   font-family: Inter-normal;
+}
+.website > .website__footer > .footer__menu > .menu__pages {
+  width: 298px;
+  height: 258px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.website > .website__footer > .footer__menu > .menu__pages > .pages__title {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  font-style: normal;
+  letter-spacing: 0.384px;
+  font-family: Cardo-normal;
+}
+.website > .website__footer > .footer__menu > .menu__pages > .pages__list {
+  width: 258px;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin: 25px 0 0 0;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.website > .website__footer > .footer__menu > .menu__pages > .pages__list > li {
+  display: flex;
+  margin: 0 0 10px 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.website > .website__footer > .footer__menu > .menu__pages > .pages__list > li > .circles {
+  width: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 12px 0 0;
+  justify-content: space-between;
+}
+.website > .website__footer > .footer__menu > .menu__pages > .pages__list > li > .circles > .circles__circle {
+  width: 4px;
+  height: 4px;
+  border-radius: 100px;
+  background: #FFCA42;
+}
+.website > .website__footer > .footer__menu > .menu__pages > .pages__list > li > a {
+  color: #B4C7E7;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 0.18px;
+  font-family: Inter-normal;
 }/*# sourceMappingURL=style.css.map */
