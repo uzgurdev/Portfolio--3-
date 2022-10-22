@@ -1619,6 +1619,7 @@
 
     &>.website__articles-resources {
         display: flex;
+        align-items: center;
         background: #F4F8FF;
         flex-direction: column;
         justify-content: space-evenly;
@@ -1626,9 +1627,11 @@
         &>.articles-resources__main-section {
 
             &>.main-section__header {
+                height: 85px;
                 display: flex;
+                align-items: center;
                 flex-direction: column;
-                justify-content: space-evenly;
+                justify-content: space-between;
 
                 &>.header__title {
                     color: #1B3764;
@@ -1639,6 +1642,49 @@
                     text-align: center;
                     font-family: Cardo-normal;
                     text-transform: capitalize;
+                }
+
+                &>.header__line {
+                    width: 50px;
+                    height: 3px;
+                    background: #ffca42;
+                }
+
+            }
+
+            &>.main-section__body {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                &>.body__card {
+                    width: 420px;
+                    height: 622px;
+                    display: flex;
+                    background: #fff;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    &>.card__body {
+                        padding: 0 30px;
+                        box-sizing: border-box;
+                        
+                        &>.body__title {
+                            width: 318px;
+                            color: #1B3764;
+                            font-size: 24px;
+                            font-weight: 400;
+                            line-height: 34px;
+                            font-style: normal;
+                            letter-spacing: 0.24px;
+                            font-family: Cardo-normal;
+                        }
+
+                        &>.body__desc
+
+                    }
+
                 }
 
             }
