@@ -1313,4 +1313,25 @@
 }
 .website > .website__opinion > .opinion__main-section > .main-section__people > .people__card:nth-child(3) {
   margin-top: 150px;
+}
+.website > .website__articles-resources {
+  display: flex;
+  background: #F4F8FF;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.website > .website__articles-resources > .articles-resources__main-section > .main-section__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.website > .website__articles-resources > .articles-resources__main-section > .main-section__header > .header__title {
+  color: #1B3764;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50px;
+  font-style: normal;
+  text-align: center;
+  font-family: Cardo-normal;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
