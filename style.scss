@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: none;
+    scroll-behavior: smooth;
 }
 
 *::-webkit-scrollbar {
@@ -85,6 +86,11 @@
                             letter-spacing: 0.17px;
                             text-decoration: none;
                             font-family: Inter-normal;
+
+                            &:hover {
+                                color: #ffca42;
+                            }
+
                         }
 
                     }
@@ -2077,7 +2083,37 @@
 
         }
 
-        
+        &>.footer__dev {
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            &>p {
+                color: #B4C7E7;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 26px;
+                font-style: normal;
+                text-align: center;
+                letter-spacing: 0.17px;
+                font-family: Inter-normal;
+
+                &>a {
+                    color: #FFFFFF;
+                    font-size: 17px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    font-style: normal;
+                    text-align: center;
+                    text-decoration: none;
+                    letter-spacing: 0.17px;
+                    font-family: Inter-normal;
+                }
+
+            }
+
+        }
 
     }
 
