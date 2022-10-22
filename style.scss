@@ -1856,4 +1856,28 @@
 
     }
 
+    &>.website__footer {
+        height: 486px;
+        display: flex;
+        align-items: center;
+        background: #1B3764;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        &>.footer__menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            &>.menu__socials {
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+
+        }
+
+    }
+
 }

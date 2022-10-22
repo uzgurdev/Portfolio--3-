@@ -1529,4 +1529,23 @@
   letter-spacing: 0.18px;
   font-family: Inter-normal;
   border: 2px solid #1B3764;
+}
+.website > .website__footer {
+  height: 486px;
+  display: flex;
+  align-items: center;
+  background: #1B3764;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.website > .website__footer > .footer__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.website > .website__footer > .footer__menu > .menu__socials {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
