@@ -1539,6 +1539,7 @@
   justify-content: space-evenly;
 }
 .website > .website__footer > .footer__menu {
+  width: 1300px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -1553,7 +1554,6 @@
   width: 199px;
   height: 258px;
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
 }
@@ -1571,11 +1571,13 @@
   display: flex;
   list-style: none;
   flex-direction: column;
+  margin: 25px 0 0 0;
   align-items: flex-start;
   justify-content: space-evenly;
 }
 .website > .website__footer > .footer__menu > .menu__explore > .explore__list > li {
   display: flex;
+  margin: 0 0 10px 0;
   flex-direction: row;
   justify-content: space-evenly;
 }
