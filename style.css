@@ -1663,5 +1663,30 @@
 .website > .website__footer > .footer__menu > .menu__contact {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
+.website > .website__footer > .footer__menu > .menu__contact > .contact__title {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  font-style: normal;
+  letter-spacing: 0.384px;
+  font-family: Cardo-normal;
+}
+.website > .website__footer > .footer__menu > .menu__contact > .contact__info {
+  width: 417px;
+  height: 164px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+}
+.website > .website__footer > .footer__menu > .menu__contact > .contact__info > .info__desc {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-style: normal;
+  letter-spacing: 0.36px;
+  font-family: Cardo-normal;
 }/*# sourceMappingURL=style.css.map */

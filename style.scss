@@ -1914,7 +1914,7 @@
                             display: flex;
                             align-items: center;
                             flex-direction: row;
-                            margin: 0 12px 0 0 ;
+                            margin: 0 12px 0 0;
                             justify-content: space-between;
 
                             &>.circles__circle {
@@ -1980,7 +1980,7 @@
                             display: flex;
                             align-items: center;
                             flex-direction: row;
-                            margin: 0 12px 0 0 ;
+                            margin: 0 12px 0 0;
                             justify-content: space-between;
 
                             &>.circles__circle {
@@ -2012,7 +2012,38 @@
             &>.menu__contact {
                 display: flex;
                 flex-direction: column;
-                justify-content: space-evenly;
+                justify-content: space-around;
+
+                &>.contact__title {
+                    color: #FFFFFF;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 34px;
+                    font-style: normal;
+                    letter-spacing: 0.384px;
+                    font-family: Cardo-normal;
+                }
+
+                &>.contact__info {
+                    width: 417px;
+                    height: 164px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+
+                    &>.info__desc {
+                        color: #FFFFFF;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 27px;
+                        font-style: normal;
+                        letter-spacing: 0.36px;
+                        font-family: Cardo-normal;
+
+                    }
+
+                }
+
             }
 
         }
