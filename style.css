@@ -1137,22 +1137,29 @@
 }
 .website > .website__opinion {
   display: flex;
-  margin: 130px 0;
+  margin: 130px 70px;
   flex-direction: row;
+  align-items: center;
 }
-.website > .website__opinion > .opinion__overall {
+.website > .website__opinion > .opinion__main-section {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.website > .website__opinion > .opinion__main-section > .main-section__overall {
   width: 440px;
   height: 445px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.website > .website__opinion > .opinion__overall > .overall__text {
+.website > .website__opinion > .opinion__main-section > .main-section__overall > .overall__text {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.website > .website__opinion > .opinion__overall > .overall__text > .text__title {
+.website > .website__opinion > .opinion__main-section > .main-section__overall > .overall__text > .text__title {
   color: #1B3764;
   font-size: 42px;
   font-weight: 400;
@@ -1162,13 +1169,13 @@
   font-family: Cardo-normal;
   text-transform: capitalize;
 }
-.website > .website__opinion > .opinion__overall > .overall__text > .text__line {
+.website > .website__opinion > .opinion__main-section > .main-section__overall > .overall__text > .text__line {
   width: 50px;
   height: 3px;
   background: #FFCA42;
   margin: 23px 0px 33px;
 }
-.website > .website__opinion > .opinion__overall > .overall__text > .text__desc {
+.website > .website__opinion > .opinion__main-section > .main-section__overall > .overall__text > .text__desc {
   color: #969AA0;
   font-size: 19px;
   font-weight: 400;
@@ -1176,12 +1183,12 @@
   font-style: normal;
   font-family: Inter-normal;
 }
-.website > .website__opinion > .opinion__overall > .overall__rating {
+.website > .website__opinion > .opinion__main-section > .main-section__overall > .overall__rating {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.website > .website__opinion > .opinion__overall > .overall__rating > .rating__rate {
+.website > .website__opinion > .opinion__main-section > .main-section__overall > .overall__rating > .rating__rate {
   display: flex;
   color: #1B3764;
   font-size: 20px;
@@ -1191,18 +1198,18 @@
   flex-direction: row;
   font-family: Cardo-normal;
 }
-.website > .website__opinion > .opinion__overall > .overall__rating > .rating__rate > .rate__circle {
+.website > .website__opinion > .opinion__main-section > .main-section__overall > .overall__rating > .rating__rate > .rate__circle {
   display: flex;
   flex-direction: row;
 }
-.website > .website__opinion > .opinion__overall > .overall__rating > .rating__rate > .rate__circle > .circle__circle {
+.website > .website__opinion > .opinion__main-section > .main-section__overall > .overall__rating > .rating__rate > .rate__circle > .circle__circle {
   width: 20px;
   height: 20px;
   border-radius: 100%;
   background: #ffca42;
   margin: 0px 5px 0px 0px;
 }
-.website > .website__opinion > .opinion__overall > .overall__rating > .rating__rate > .rate__circle > .circle__circle-half {
+.website > .website__opinion > .opinion__main-section > .main-section__overall > .overall__rating > .rating__rate > .rate__circle > .circle__circle-half {
   width: 20px;
   height: 20px;
   border-radius: 100%;
@@ -1210,7 +1217,7 @@
   border: 1px solid #ffca42;
   background: linear-gradient(to left, #FFFFFF 50%, #ffca42 50%);
 }
-.website > .website__opinion > .opinion__overall > .overall__rating > .rating__desc {
+.website > .website__opinion > .opinion__main-section > .main-section__overall > .overall__rating > .rating__desc {
   color: #1B3764;
   font-size: 18px;
   font-weight: 400;
@@ -1218,14 +1225,14 @@
   font-style: normal;
   font-family: Inter-normal;
 }
-.website > .website__opinion > .opinion__people {
+.website > .website__opinion > .opinion__main-section > .main-section__people {
   height: 634px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
-.website > .website__opinion > .opinion__people > .people__card {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card {
   width: 381px;
   height: 292px;
   display: flex;
@@ -1235,17 +1242,17 @@
   margin: 20px 0 0 20px;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.11);
 }
-.website > .website__opinion > .opinion__people > .people__card > .card__profile {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card > .card__profile {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
 }
-.website > .website__opinion > .opinion__people > .people__card > .card__profile > .profile__text {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card > .card__profile > .profile__text {
   display: flex;
   flex-direction: column;
 }
-.website > .website__opinion > .opinion__people > .people__card > .card__profile > .profile__text > .text__name {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card > .card__profile > .profile__text > .text__name {
   color: #FFFFFF;
   font-size: 24px;
   font-weight: 400;
@@ -1253,18 +1260,18 @@
   font-style: normal;
   font-family: Cardo-normal;
 }
-.website > .website__opinion > .opinion__people > .people__card > .card__profile > .profile__text > .text__circle {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card > .card__profile > .profile__text > .text__circle {
   display: flex;
   flex-direction: row;
 }
-.website > .website__opinion > .opinion__people > .people__card > .card__profile > .profile__text > .text__circle > .circle__circle {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card > .card__profile > .profile__text > .text__circle > .circle__circle {
   width: 12.67px;
   height: 12.67px;
   border-radius: 100%;
   background: #ffca42;
   margin: 15px 0px 0px 5px;
 }
-.website > .website__opinion > .opinion__people > .people__card > .card__profile > .profile__text > .text__circle > .circle__circle-halfe {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card > .card__profile > .profile__text > .text__circle > .circle__circle-halfe {
   width: 12.67px;
   height: 12.67px;
   border-radius: 100%;
@@ -1273,13 +1280,13 @@
   border: 1px solid #ffca42;
   background: linear-gradient(to left, transparent 50%, #ffca42 50%);
 }
-.website > .website__opinion > .opinion__people > .people__card > .card__desc {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card > .card__desc {
   display: flex;
   margin: 0 35px 0 50px;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.website > .website__opinion > .opinion__people > .people__card > .card__desc > .desc__title {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card > .card__desc > .desc__title {
   color: #fff;
   font-size: 22px;
   font-weight: 400;
@@ -1287,7 +1294,7 @@
   font-style: normal;
   font-family: Cardo-normal;
 }
-.website > .website__opinion > .opinion__people > .people__card > .card__desc > .desc__desc {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card > .card__desc > .desc__desc {
   color: #B4C7E7;
   font-size: 18px;
   font-weight: 400;
@@ -1295,7 +1302,7 @@
   font-style: normal;
   font-family: Inter-normal;
 }
-.website > .website__opinion > .opinion__people > .people__card:nth-child(2) > .card__profile > .profile__text > .text__circle > .circle__circle-halfe {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card:nth-child(2) > .card__profile > .profile__text > .text__circle > .circle__circle-halfe {
   width: 12.67px;
   height: 12.67px;
   border-radius: 100%;
@@ -1304,6 +1311,6 @@
   border: 1px solid #ffca42;
   background: linear-gradient(to left, transparent 50%, transparent 50%);
 }
-.website > .website__opinion > .opinion__people > .people__card:nth-child(3) {
+.website > .website__opinion > .opinion__main-section > .main-section__people > .people__card:nth-child(3) {
   margin-top: 150px;
 }/*# sourceMappingURL=style.css.map */

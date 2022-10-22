@@ -1384,189 +1384,103 @@
 
     &>.website__opinion {
         display: flex;
-        margin: 130px 0;
+        margin: 130px 70px;
         flex-direction: row;
-        // justify-content: space-evenly;
+        align-items: center;
 
-        &>.opinion__overall {
-            width: 440px;
-            height: 445px;
+        &>.opinion__main-section {
+            width: 1000px;
             display: flex;
-            flex-direction: column;
-            // margin: 0 30px 0 70px;
-            justify-content: space-evenly;
-
-            &>.overall__text {
+            flex-direction: row;
+            justify-content: space-between;
+            
+            &>.main-section__overall {
+                width: 440px;
+                height: 445px;
                 display: flex;
+                // margin: 0 30px 0 0;
                 flex-direction: column;
                 justify-content: space-evenly;
 
-                &>.text__title {
-                    color: #1B3764;
-                    font-size: 42px;
-                    font-weight: 400;
-                    text-align: left;
-                    line-height: 50px;
-                    font-style: normal;
-                    font-family: Cardo-normal;
-                    text-transform: capitalize;
-                }
-
-                &>.text__line {
-                    width: 50px;
-                    height: 3px;
-                    background: #FFCA42;
-                    margin: 23px 0px 33px;
-                }
-
-                &>.text__desc {
-                    color: #969AA0;
-                    font-size: 19px;
-                    font-weight: 400;
-                    line-height: 34px;
-                    font-style: normal;
-                    font-family: Inter-normal;
-                }
-
-            }
-
-            &>.overall__rating {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-
-                &>.rating__rate {
+                &>.overall__text {
                     display: flex;
-                    color: #1B3764;
-                    font-size: 20px;
-                    font-weight: 400;
-                    line-height: 26px;
-                    font-style: normal;
-                    flex-direction: row;
-                    font-family: Cardo-normal;
+                    flex-direction: column;
+                    justify-content: space-evenly;
 
-                    &>.rate__circle {
-                        display: flex;
-                        flex-direction: row;
+                    &>.text__title {
+                        color: #1B3764;
+                        font-size: 42px;
+                        font-weight: 400;
+                        text-align: left;
+                        line-height: 50px;
+                        font-style: normal;
+                        font-family: Cardo-normal;
+                        text-transform: capitalize;
+                    }
 
-                        &>.circle__circle {
-                            width: 20px;
-                            height: 20px;
-                            border-radius: 100%;
-                            background: #ffca42;
-                            margin: 0px 5px 0px 0px;
-                        }
+                    &>.text__line {
+                        width: 50px;
+                        height: 3px;
+                        background: #FFCA42;
+                        margin: 23px 0px 33px;
+                    }
 
-                        &>.circle__circle-half {
-                            width: 20px;
-                            height: 20px;
-                            border-radius: 100%;
-                            margin: 0px 5px 0px 0px;
-                            border: 1px solid #ffca42;
-                            background: linear-gradient(to left, #FFFFFF 50%, #ffca42 50%);
-                        }
-
+                    &>.text__desc {
+                        color: #969AA0;
+                        font-size: 19px;
+                        font-weight: 400;
+                        line-height: 34px;
+                        font-style: normal;
+                        font-family: Inter-normal;
                     }
 
                 }
 
-                &>.rating__desc {
-                    color: #1B3764;
-                    font-size: 18px;
-                    font-weight: 400;
-                    line-height: 28px;
-                    font-style: normal;
-                    font-family: Inter-normal;
-                }
-
-            }
-
-        }
-
-        &>.opinion__people {
-            height: 634px;
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            align-items: center;
-
-            &>.people__card {
-                width: 381px;
-                height: 292px;
-                display: flex;
-                background: #1B3764;
-                flex-direction: column;
-                justify-content: space-evenly;
-                margin: 20px 0 0 20px;
-                box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.11);
-
-                &>.card__profile {
+                &>.overall__rating {
                     display: flex;
-                    flex-direction: row;
-                    align-items: center;
+                    flex-direction: column;
                     justify-content: space-evenly;
 
-                    &>.profile__text {
+                    &>.rating__rate {
                         display: flex;
-                        flex-direction: column;
+                        color: #1B3764;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        font-style: normal;
+                        flex-direction: row;
+                        font-family: Cardo-normal;
 
-                        &>.text__name {
-                            color: #FFFFFF;
-                            font-size: 24px;
-                            font-weight: 400;
-                            line-height: 29px;
-                            font-style: normal;
-                            font-family: Cardo-normal;
-                        }
-
-                        &>.text__circle {
+                        &>.rate__circle {
                             display: flex;
                             flex-direction: row;
 
                             &>.circle__circle {
-                                width: 12.67px;
-                                height: 12.67px;
+                                width: 20px;
+                                height: 20px;
                                 border-radius: 100%;
                                 background: #ffca42;
-                                margin: 15px 0px 0px 5px;
+                                margin: 0px 5px 0px 0px;
                             }
 
-                            &>.circle__circle-halfe {
-                                width: 12.67px;
-                                height: 12.67px;
+                            &>.circle__circle-half {
+                                width: 20px;
+                                height: 20px;
                                 border-radius: 100%;
-                                box-sizing: border-box;
-                                margin: 15px 0px 0px 5px;
+                                margin: 0px 5px 0px 0px;
                                 border: 1px solid #ffca42;
-                                background: linear-gradient(to left, transparent 50%, #ffca42 50%);
+                                background: linear-gradient(to left, #FFFFFF 50%, #ffca42 50%);
                             }
 
                         }
 
                     }
 
-                }
-
-                &>.card__desc {
-                    display: flex;
-                    margin: 0 35px 0 50px;
-                    flex-direction: column;
-                    justify-content: space-evenly;
-
-                    &>.desc__title {
-                        color: #fff;
-                        font-size: 22px;
-                        font-weight: 400;
-                        line-height: 33px;
-                        font-style: normal;
-                        font-family: Cardo-normal;
-                    }
-
-                    &>.desc__desc {
-                        color: #B4C7E7;
+                    &>.rating__desc {
+                        color: #1B3764;
                         font-size: 18px;
                         font-weight: 400;
-                        line-height: 29px;
+                        line-height: 28px;
                         font-style: normal;
                         font-family: Inter-normal;
                     }
@@ -1575,22 +1489,116 @@
 
             }
 
-            &>.people__card:nth-child(2) {
+            &>.main-section__people {
+                height: 634px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
 
-                &>.card__profile {
+                &>.people__card {
+                    width: 381px;
+                    height: 292px;
+                    display: flex;
+                    background: #1B3764;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    margin: 20px 0 0 20px;
+                    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.11);
 
-                    &>.profile__text {
+                    &>.card__profile {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-evenly;
 
-                        &>.text__circle {
+                        &>.profile__text {
+                            display: flex;
+                            flex-direction: column;
 
-                            &>.circle__circle-halfe {
-                                width: 12.67px;
-                                height: 12.67px;
-                                border-radius: 100%;
-                                box-sizing: border-box;
-                                margin: 15px 0px 0px 5px;
-                                border: 1px solid #ffca42;
-                                background: linear-gradient(to left, transparent 50%, transparent 50%);
+                            &>.text__name {
+                                color: #FFFFFF;
+                                font-size: 24px;
+                                font-weight: 400;
+                                line-height: 29px;
+                                font-style: normal;
+                                font-family: Cardo-normal;
+                            }
+
+                            &>.text__circle {
+                                display: flex;
+                                flex-direction: row;
+
+                                &>.circle__circle {
+                                    width: 12.67px;
+                                    height: 12.67px;
+                                    border-radius: 100%;
+                                    background: #ffca42;
+                                    margin: 15px 0px 0px 5px;
+                                }
+
+                                &>.circle__circle-halfe {
+                                    width: 12.67px;
+                                    height: 12.67px;
+                                    border-radius: 100%;
+                                    box-sizing: border-box;
+                                    margin: 15px 0px 0px 5px;
+                                    border: 1px solid #ffca42;
+                                    background: linear-gradient(to left, transparent 50%, #ffca42 50%);
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                    &>.card__desc {
+                        display: flex;
+                        margin: 0 35px 0 50px;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+
+                        &>.desc__title {
+                            color: #fff;
+                            font-size: 22px;
+                            font-weight: 400;
+                            line-height: 33px;
+                            font-style: normal;
+                            font-family: Cardo-normal;
+                        }
+
+                        &>.desc__desc {
+                            color: #B4C7E7;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 29px;
+                            font-style: normal;
+                            font-family: Inter-normal;
+                        }
+
+                    }
+
+                }
+
+                &>.people__card:nth-child(2) {
+
+                    &>.card__profile {
+
+                        &>.profile__text {
+
+                            &>.text__circle {
+
+                                &>.circle__circle-halfe {
+                                    width: 12.67px;
+                                    height: 12.67px;
+                                    border-radius: 100%;
+                                    box-sizing: border-box;
+                                    margin: 15px 0px 0px 5px;
+                                    border: 1px solid #ffca42;
+                                    background: linear-gradient(to left, transparent 50%, transparent 50%);
+                                }
+
                             }
 
                         }
@@ -1599,10 +1607,10 @@
 
                 }
 
-            }
+                &>.people__card:nth-child(3) {
+                    margin-top: 150px;
+                }
 
-            &>.people__card:nth-child(3) {
-                margin-top: 150px;
             }
 
         }
