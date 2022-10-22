@@ -1875,7 +1875,7 @@
                 flex-direction: column;
                 justify-content: space-evenly;
             }
-            
+
             &>.menu__explore {
                 width: 199px;
                 height: 258px;
@@ -1883,6 +1883,62 @@
                 align-items: center;
                 flex-direction: column;
                 justify-content: space-evenly;
+
+                &>.explore__title {
+                    color: #FFFFFF;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 34px;
+                    font-style: normal;
+                    letter-spacing: 0.384px;
+                    font-family: Cardo-normal;
+                }
+
+                &>.explore__list {
+                    width: 135px;
+                    display: flex;
+                    list-style: none;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: space-evenly;
+
+                    &>li {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+
+                        &>.circles {
+                            width: 20px;
+                            display: flex;
+                            align-items: center;
+                            flex-direction: row;
+                            margin: 0 12px 0 0 ;
+                            justify-content: space-between;
+
+                            &>.circles__circle {
+                                width: 4px;
+                                height: 4px;
+                                border-radius: 100px;
+                                background: #FFCA42;
+                            }
+
+                        }
+
+                        &>a {
+                            color: #B4C7E7;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 31px;
+                            font-style: normal;
+                            text-decoration: none;
+                            letter-spacing: 0.18px;
+                            font-family: Inter-normal;
+                        }
+
+                    }
+
+                }
+
             }
 
         }
