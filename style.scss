@@ -1875,6 +1875,15 @@
                 flex-direction: column;
                 justify-content: space-evenly;
             }
+            
+            &>.menu__explore {
+                width: 199px;
+                height: 258px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
 
         }
 
