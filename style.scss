@@ -2025,20 +2025,49 @@
                 }
 
                 &>.contact__info {
-                    width: 417px;
+                    width: 440px;
                     height: 164px;
                     display: flex;
-                    flex-direction: column;
+                    flex-direction: row;
                     justify-content: space-evenly;
 
-                    &>.info__desc {
+                    &>.info__right {
+                        display: flex;
                         color: #FFFFFF;
                         font-size: 18px;
                         font-weight: 400;
                         line-height: 27px;
                         font-style: normal;
                         letter-spacing: 0.36px;
+                        flex-direction: column;
                         font-family: Cardo-normal;
+                        justify-content: space-evenly;
+
+                        &>.right__desc:nth-child(2) {
+                            margin: 40px 0;
+                        }
+
+                    }
+
+                    &>.info__left {
+                        display: flex;
+                        color: #B4C7E7;
+                        font-size: 17px;
+                        font-weight: 400;
+                        line-height: 27px;
+                        font-style: normal;
+                        letter-spacing: 0.18px;
+                        flex-direction: column;
+                        font-family: Inter-normal;
+                        justify-content: space-evenly;
+
+                        &>.left__desc:nth-child(1) {
+                            width: 250px;
+                        }
+
+                        &>.left__desc:nth-child(2) {
+                            margin: 30px 0;
+                        }
 
                     }
 
@@ -2047,6 +2076,8 @@
             }
 
         }
+
+        
 
     }
 
